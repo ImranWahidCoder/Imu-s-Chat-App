@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.identity
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: blanchedalmond;
+    font-weight: normal;
+}
+.link_loc
+{
+    font-weight: bold;
+}
+.link_loc a
+{
+    color:rgb(18, 233, 125);
+    outline: none;
+}
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 80px;
+}
+.container
+{
+    margin: auto;
+    height: 70vh;
+    max-width: 900px;
+    overflow-y: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.l
+{
+    float: left;
+    clear: both;
+}
+.r
+{
+    float:right;
+    clear: both;
+}
+.message
+{
+    /* background-color: gray; */
+    margin: 10px;
+    padding: 20px;
+    font-size: large;
+    color: blanchedalmond;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 150px;
+}
+.middle
+{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
+    background-color: blanchedalmond;
+    color: #282828;
+    border-radius: 20px;
+}
+.username
+{
+    background-color: #282828;
+    color: blanchedalmond;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.text
+{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.left
+{
+    float: left;
+    clear: both;
+    background-color: darkcyan;
+    border-radius: 0 20px 20px 20px;
+}
+.right
+{
+    float: right;
+    clear: both;
+    background-color: gray;
+    border-radius: 20px 0 20px 20px;
+}
+.send
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.messageInp
+{
+    height: 50px;
+    max-width: 100%;
+    border-radius: 30px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    font-size: large;
+    float: left;
+}
+.btn_lc
+{
+    background-color: #282828;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+}
+.btn
+{
+    background-color: #282828;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+}
+#send-container
+{
+    width: 100%;
+}
+#form
+{
+    display: flex;
+    justify-content: center;
+}
+.extra
+{
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
+    background-color: blanchedalmond;
+    color: #282828;
+    border-radius: 20px;
+}
+
+.inside
+{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(20, 20, 19);
+    color:whitesmoke;
+    margin: 20px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    float: left;
+}
