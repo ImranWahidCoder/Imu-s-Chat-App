@@ -29,10 +29,19 @@ body
     width: 100px;
     height: 80px;
 }
+.feedback
+{
+    color:blanchedalmond;
+    background-color: rgb(58, 114, 1);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: medium;
+}
 .container
 {
-    margin: auto;
-    height: 70vh;
+    margin: 10px auto;
+    height: 65vh;
     max-width: 900px;
     overflow-y: auto;
     padding-left: 2px;
@@ -173,4 +182,33 @@ body
     font-size: large;
     border-radius: 10px;
     float: left;
+}
+.file
+{
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 3px;
+}
+.arekta
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-top: auto;
+    margin-right: 10px;
+    color: #282828;
+    text-shadow: 3px 3px blanchedalmond
+}
+.last
+{
+    font-weight: bold;
+    margin-left: 5px;
+    background-color:rgb(12, 151, 121);
+    border-radius: 5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.gol
+{
+    border-radius: 5px;
+    margin-bottom:5px;
 }

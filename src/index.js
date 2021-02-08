@@ -17,7 +17,6 @@ io.on('connection',socket=>
 {
     socket.on('new-user-joined',name=>
     {
-        console.log(name);
         users[socket.id]=name;
         socket.broadcast.emit('user-joined',name);
     });
@@ -33,5 +32,9 @@ io.on('connection',socket=>
     socket.on('kothai',data=>
     {
         socket.broadcast.emit('get',{message:data,name:users[socket.id]});
+    });
+    socket.on('typing',data=>
+    {
+        socket.broadcast.emit('still_typing',`${data} is typing a message...`);
     })
 });
