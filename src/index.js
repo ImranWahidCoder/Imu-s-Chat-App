@@ -4,7 +4,7 @@ const socket=require('socket.io');
 const moment = require("moment");
 
 const app=express();
-const port=process.env.port || 8000; 
+const port=process.env.PORT || 8000; 
 const server= app.listen(port,()=>
 {
     console.log(`Listening to the port ${port}`);
