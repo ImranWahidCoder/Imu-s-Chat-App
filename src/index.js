@@ -10,7 +10,7 @@ const server= app.listen(port,()=>
     console.log(`Listening to the port ${port}`);
 });
 
-app.use(express.static('../public'));
+app.use(express.static('public'));
 const io=socket(server);
 const users={};
 io.on('connection',socket=>
