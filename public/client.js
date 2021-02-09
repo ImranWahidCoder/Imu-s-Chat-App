@@ -126,7 +126,7 @@ button_two.addEventListener('click',(e)=>
     e.preventDefault();
     if(!navigator.geolocation)
     {
-        return alert(`Your browser doesn't support geo-location prileges`);
+        return alert(`Your browser doesn't support geo-location privileges`);
     }
     navigator.geolocation.getCurrentPosition((position)=>
     {
