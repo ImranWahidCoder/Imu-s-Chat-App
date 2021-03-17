@@ -67,6 +67,7 @@ body
     border-radius: 40px;
     width: 100%;
     max-width: 150px;
+    box-shadow: 7px 7px 10px black;
 }
 .middle
 {
@@ -160,7 +161,7 @@ body
     clear: both;
     width: 100%;
     max-width: 300px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
@@ -168,7 +169,8 @@ body
     font-size: large;
     background-color: blanchedalmond;
     color: #282828;
-    border-radius: 20px;
+    border-radius: 15px;
+    text-shadow: 5px 5px 10px wheat;
 }
 
 .inside
