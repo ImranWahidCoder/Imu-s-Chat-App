@@ -6,8 +6,8 @@ const button_two=document.querySelector('.btn_lc');
 const feedback=document.querySelector('.feedback');
 
 const name=prompt("Enter your name to join");
-const audio=new Audio('fb.mp3');
-const joining=new Audio('join.mp3');
+const audio=new Audio('./mp3/fb.mp3');
+const joining=new Audio('./mp3/join.mp3');
 
 
 messageInput.addEventListener('keypress',(e)=>
@@ -40,7 +40,7 @@ const append_message=(message,user,position)=>
     messageElement.classList.add('text');
     messageElement.classList.add(position);
     const handle=document.createElement('div');
-    handle.innerHTML=`<img src="user.png" height="20px" width="20px" class="gol"> ${user}`;
+    handle.innerHTML=`<img src="./Images/user.png" height="20px" width="20px" class="gol"> ${user}`;
     handle.classList.add('username');
     main_div.append(handle);
     main_div.append(messageElement);
